@@ -69,12 +69,13 @@ Examples:
 
 == Listing all persons : `list`
 
-Shows a list of all persons, along with their non-private details, in the address book. +
+Shows a list of all persons, along with their non-private details, in the address book in lexicographical
+order of their names. +
 Format: `list`
 
 == Finding all persons containing any keyword in their name: `find`
 
-Finds persons whose names contain any of the given keywords. +
+Finds persons whose names contain any of the given keywords, showing them by lexicographical order of their names. +
 Format: `find KEYWORD [MORE_KEYWORDS]`
 
 [NOTE]
