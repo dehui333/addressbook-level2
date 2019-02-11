@@ -153,9 +153,10 @@
     
   # add new persons in non lexicographical order, to see the effect of output being sorted
   add Ah Beng p/222223 e/ab@g.com a/123, lala land
-  add Zoel p/123456 e/zz@t.com a/111, nowhere
-  add Ginger p/123333 e/r@g.com a/2121, anywhere
+  add Zoel X p/123456 e/zz@t.com a/111, nowhere
+  add Ginger X p/123333 e/r@g.com a/2121, anywhere
   list
+  find X
 
 
 ##########################################################

@@ -300,18 +300,24 @@
 || Enter command: || [Command entered:  add Ah Beng p/222223 e/ab@g.com a/123, lala land]
 || New person added: Ah Beng Phone: 222223 Email: ab@g.com Address: 123, lala land Tags: 
 || ===================================================
-|| Enter command: || [Command entered:  add Zoel p/123456 e/zz@t.com a/111, nowhere]
-|| New person added: Zoel Phone: 123456 Email: zz@t.com Address: 111, nowhere Tags: 
+|| Enter command: || [Command entered:  add Zoel X p/123456 e/zz@t.com a/111, nowhere]
+|| New person added: Zoel X Phone: 123456 Email: zz@t.com Address: 111, nowhere Tags: 
 || ===================================================
-|| Enter command: || [Command entered:  add Ginger p/123333 e/r@g.com a/2121, anywhere]
-|| New person added: Ginger Phone: 123333 Email: r@g.com Address: 2121, anywhere Tags: 
+|| Enter command: || [Command entered:  add Ginger X p/123333 e/r@g.com a/2121, anywhere]
+|| New person added: Ginger X Phone: 123333 Email: r@g.com Address: 2121, anywhere Tags: 
 || ===================================================
 || Enter command: || [Command entered:  list]
 || 	1. Ah Beng Phone: 222223 Email: ab@g.com Address: 123, lala land Tags: 
-|| 	2. Ginger Phone: 123333 Email: r@g.com Address: 2121, anywhere Tags: 
-|| 	3. Zoel Phone: 123456 Email: zz@t.com Address: 111, nowhere Tags: 
+|| 	2. Ginger X Phone: 123333 Email: r@g.com Address: 2121, anywhere Tags: 
+|| 	3. Zoel X Phone: 123456 Email: zz@t.com Address: 111, nowhere Tags: 
 || 
 || 3 persons listed!
+|| ===================================================
+|| Enter command: || [Command entered:  find X]
+|| 	1. Ginger X Phone: 123333 Email: r@g.com Address: 2121, anywhere Tags: 
+|| 	2. Zoel X Phone: 123456 Email: zz@t.com Address: 111, nowhere Tags: 
+|| 
+|| 2 persons listed!
 || ===================================================
 || Enter command: || [Command entered:  exit]
 || Exiting Address Book as requested ...
