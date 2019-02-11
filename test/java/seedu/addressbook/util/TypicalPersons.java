@@ -16,13 +16,15 @@ import seedu.addressbook.data.tag.Tag;
  */
 public class TypicalPersons {
 
-    public Person amy, bill, candy, dan;
+    public Person amy, bill, candy, dan, zoel;
 
     public TypicalPersons() {
         try {
             amy = new Person(new Name("Amy Buck"), new Phone("91119111", false), new Email("ab@gmail.com", false),
                     new Address("1 Clementi Road", false), Collections.emptySet());
             bill = new Person(new Name("Bill Clint"), new Phone("92229222", false), new Email("bc@gmail.com", false),
+                    new Address("2 Clementi Road", true), Collections.emptySet());
+            zoel = new Person(new Name("Zoel Clint"), new Phone("92229221", false), new Email("zbc@gmail.com", false),
                     new Address("2 Clementi Road", true), Collections.emptySet());
             candy = new Person(new Name("Candy Destiny"), new Phone("93339333", true),
                     new Email("cd@gmail.com", false), new Address("3 Clementi Road", true), Collections.emptySet());
@@ -45,7 +47,7 @@ public class TypicalPersons {
     }
 
     public Person[] getTypicalPersons() {
-        return new Person[]{amy, bill, candy, dan};
+        return new Person[]{zoel, amy, bill, candy, dan};
     }
 
     public AddressBook getTypicalAddressBook() {

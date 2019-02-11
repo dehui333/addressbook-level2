@@ -40,6 +40,9 @@ public class FindCommandTest {
 
         //Keyword matching a word in address: not matched
         assertFindCommandBehavior(new String[]{"Clementi"}, Collections.emptyList());
+
+        //output should be in lexicographical order
+        assertFindCommandBehavior(new String[]{"Amy", "Zoel", "Bill"}, Arrays.asList(td.amy, td.bill, td.zoel));
     }
 
     /**
